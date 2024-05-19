@@ -1,0 +1,36 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.head{
+    border: 3px solid aqua;
+    padding: 20px;
+}
+h1{
+    color: red;
+    border-left: 3px solid red;
+    padding-left: 4px;
+}
+.content{
+    display: flex;
+    gap: 40px;
+}
+.card{
+    
+}
+.img_content{
+    width: 100%;
+}
+.list_icon{
+    margin-bottom: 20px;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.content2{
+    margin-top: 30px;
+}
+.icon1{
+    color: red;
+}

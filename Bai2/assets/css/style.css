@@ -1,0 +1,193 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* common */
+.container {
+    padding: 0 40px;
+}
+
+.btn {
+    color: #fff;
+    padding: 7px;
+}
+
+.icon-red {
+    color: #f45549;
+}
+
+.icon-pen-color {
+    color: #fec61e;
+}
+a {
+    text-decoration: none;
+}
+
+button {
+    border: 1px solid #ccc;
+}
+
+input {
+    padding-left: 5px;
+    outline: none;
+}
+/* header */
+.container-header {
+    background-color: #f5f5f5;
+}
+
+.header .nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.text-logo {
+    color: #4d4d4d;
+    font-size: 2rem;
+}
+
+.header .nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.header .nav ul .item-link {
+    padding: 10px 20px;
+    font-size: 1.3rem;
+}
+
+.header .nav ul .item-link a {
+    color: #ccc;
+}
+
+.header .nav .atc-user {
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
+}
+
+.atc-search {
+    border-radius: 5px;
+    border: 1px solid #28a745;
+    color: #28a745;
+}
+
+.header .nav .atc-user .atc-search,
+.atc-btn {
+    padding: 5px;
+}
+
+/* table */
+.container-table {
+    background-color: #435d7d;
+}
+.header-table {
+    padding: 15px 0;
+}
+
+.text-manage .title {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #b9b9b9;
+}
+.header-table,
+.atc-btn__table {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.atc-btn__table {
+    margin-left: auto;
+}
+.btn-delete,
+.btn-insert {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #dc3545;
+}
+
+.btn-insert {
+    background-color: #28a745;
+}
+
+/* row */
+.main-content {
+    padding: 10px 0;
+}
+.row-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 1.3rem;
+    border-top: 1px solid #e9e9e9;
+}
+
+.text-row__title {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.main-content .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    font-size: 1.3rem;
+    border-top: 1px solid #e9e9e9;
+}
+
+.atc-row {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 1.5rem;
+    padding: 10px 0;
+}
+
+.check-btn {
+    height: 10px;
+    width: 10px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.footer .desc {
+    font-size: 1.3rem;
+    color: #5ba1c2;
+}
+
+.list-page {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.list-page .item-link {
+    color: #ccc;
+    font-size: 1.3rem;
+}
+
+.special {
+    border-radius: 3px;
+    padding: 5px 10px;
+    background-color: #03a9f4;
+}
