@@ -1,0 +1,35 @@
+[
+    {
+        "hoTen": "Ngo Minh Trung",
+        "maSV": "2251172533",
+        "ngaySinh": "08/05/2004",
+        "lop": "64KTPM1"
+    },
+    {
+        "hoTen": "Ngo Minh Vu",
+        "maSV": "2251172500",
+        "ngaySinh": "02/05/2003",
+        "lop": "64KTPM3"
+    },
+
+    {
+        "hoTen": "Ngo Ba Son",
+        "maSV": "2231172511",
+        "ngaySinh": "08/21/33",
+        "lop": "64KTPM4"
+    },
+
+    {
+        "hoTen": "Nguyen Van A",
+        "maSV": "2261882223",
+        "ngaySinh": "03/05/2004",
+        "lop": "64KTPM4"
+    },
+
+    {
+        "hoTen": "Nguyen Van B",
+        "maSV": "2261882222",
+        "ngaySinh": "08/21/33",
+        "lop": "64KTPM1"
+    }
+]
